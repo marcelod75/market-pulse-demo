@@ -1,0 +1,6 @@
+INFO:     127.0.0.1:58692 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58695 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58695 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58692 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58692 - "GET /api/articles/search?q=juros HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58692 - "GET /api/briefing/daily HTTP/1.1" 200 OK
