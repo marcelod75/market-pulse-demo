@@ -9,15 +9,13 @@ Arquitetura pensada para Azure (ADF, Functions, ADLS, Databricks, AI Search/Open
 
 Pré-requisitos
 
-Windows + PowerShell
+Windows + VS Code
 
 Python 3.11+
 
-(Opcional) VS Code
-
 Passos
 
-# PowerShell na pasta do projeto:
+# VS Code na pasta do projeto:
 $ADDR='127.0.0.1'; $PORT=8020
 .\.venv\Scripts\python.exe -m uvicorn api.api_app:app --host $ADDR --port $PORT --reload
 
@@ -35,7 +33,7 @@ GET /api/articles/{id}
 
 GET /api/briefing/daily
 
-🔎 Exemplos rápidos (PowerShell)
+🔎 Exemplos rápidos
 $BASE = "http://127.0.0.1:8020/api"
 
 # Lista com paginação padrão (page=1, per_page=10)
@@ -102,7 +100,7 @@ O script abaixo lê um arquivo de fontes (ex.: data/news_sources.json), baixa co
 Arquivo: api/ingest_sources.py
 
 🗂️ Estrutura do projeto
-.'''
+'''
 ├─ api/
 │  ├─ api_app.py              # FastAPI (rotas /api/articles, /api/briefing/daily, etc.)
 │  └─ ingest_sources.py       # (opcional) ingestão a partir de news_sources.json
@@ -248,19 +246,11 @@ Licença
 
 Uso educacional/demonstração.
 
-Se quiser, eu já deixo esse conteúdo salvo como README.md no repo — só dizer “sim”.
-
-Você disse:
-sim
-O ChatGPT disse:
-Pensou por 36s
-
-perfeito — segue um bloco único de PowerShell para você copiar e colar no terminal do VS Code. Ele sobrescreve o README.md com a versão completa, faz commit e dá push para o seu repositório marcelod75/market-pulse-demo.
 
 # === Atualiza README.md, commita e faz push ===
 # (execute na pasta C:\Users\marce\market-pulse-demo)
 
-$readme = @'
+$readme 
 # Market Pulse — Demo (Azure-first)
 
 Plataforma **demo** para ingestão, curadoria e consulta de notícias, com **API FastAPI**, **Swagger** e um **Boletim Diário** (tópicos + impacto + sentimento).  
@@ -273,13 +263,13 @@ Arquitetura pensada para **Azure** (ADF, Functions, ADLS, Databricks, AI Search/
 ## 🚀 Como rodar local
 
 **Pré-requisitos**
-- Windows + PowerShell
+- Windows + Vs Code
 - Python 3.11+
-- (Opcional) VS Code
+
 
 **Passos**
 ```ps1
-# PowerShell na pasta do projeto:
+# VS Code na pasta do projeto:
 $ADDR='127.0.0.1'; $PORT=8020
 .\.venv\Scripts\python.exe -m uvicorn api.api_app:app --host $ADDR --port $PORT --reload
 
@@ -483,7 +473,7 @@ Indexação vetorial em Azure AI Search + RAG para briefing.
 Licença
 
 Uso educacional/demonstração.
-'@
+
 
 Grava o arquivo (UTF-8)
 
