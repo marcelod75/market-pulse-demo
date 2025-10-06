@@ -5,6 +5,7 @@ Arquitetura orientada a Azure: ADF, Functions, ADLS, Databricks, AI Search/OpenA
 ✅ Inclui API funcional local + artefatos de arquitetura (evidências) prontos para apresentação.
 
 🗂️ Estrutura do projeto
+'''
 ├─ api/
 │  ├─ api_app.py              # FastAPI (rotas /api/articles, /api/briefing/daily, etc.)
 │  └─ ingest_sources.py       # (opcional) ingestão a partir de news_sources.json
@@ -23,7 +24,7 @@ Arquitetura orientada a Azure: ADF, Functions, ADLS, Databricks, AI Search/OpenA
 │  └─ market-pulse-entregaveis.zip  # pacote com tudo acima
 ├─ requirements.txt
 └─ README.md
-
+'''
 🚀 Como executar localmente
 
 Pré-requisitos: Windows, VS Code, Python 3.11+
