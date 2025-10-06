@@ -102,7 +102,7 @@ O script abaixo lê um arquivo de fontes (ex.: data/news_sources.json), baixa co
 Arquivo: api/ingest_sources.py
 
 🗂️ Estrutura do projeto
-.
+.'''
 ├─ api/
 │  ├─ api_app.py              # FastAPI (rotas /api/articles, /api/briefing/daily, etc.)
 │  └─ ingest_sources.py       # (opcional) ingestão a partir de news_sources.json
@@ -121,7 +121,7 @@ Arquivo: api/ingest_sources.py
 │  └─ market-pulse-entregaveis.zip  # pacote com tudo acima
 ├─ requirements.txt
 └─ README.md
-
+'''
 🧩 Arquitetura (Azure-ready)
 
 Orquestração: Azure Data Factory (trigger de tempo) → ForEach chama Azure Function por fonte (paralelismo controlado).
