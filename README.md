@@ -15,5 +15,5 @@ Pasta \entregaveis\ com:
 - \rchitecture_diagram.mmd\ (colar em https://mermaid.live)
 - \example_daily_briefing.md\
 - \df_pipeline_market_pulse.json\, \df_trigger_schedule.json\
-- \zure-pipelines.yml\, \dbx_etl_news.py\, \cosmos_setup.bicep\
+- \Azure-pipelines.yml\, \dbx_etl_news.py\, \cosmos_setup.bicep\
 - (opcional) \swagger.png\ (screenshot do Swagger)
