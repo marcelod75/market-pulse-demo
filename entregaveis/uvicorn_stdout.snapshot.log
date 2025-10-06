@@ -1,0 +1,17 @@
+﻿INFO:     127.0.0.1:61376 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61376 - "GET /api/briefing/daily HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61376 - "GET /briefing/daily HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/articles/search?q=juros HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "GET /api/briefing/daily HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61163 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54961 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54962 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54962 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59681 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59681 - "GET /api/articles/search?q=juros HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59681 - "GET /api/briefing/daily HTTP/1.1" 200 OK

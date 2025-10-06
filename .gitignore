@@ -1,0 +1,23 @@
+﻿# Python / venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.cache/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS / temporários
+.DS_Store
+Thumbs.db
+
+# Logs e artefatos locais
+entregaveis\uvicorn_*.log
+entregaveis\*.snapshot
+
+# Dados locais opcionais (descomente se não quiser subir)
+# data/news_sources.json

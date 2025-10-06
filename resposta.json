@@ -1,0 +1,36 @@
+﻿{
+    "items":  [
+                  {
+                      "id":  "a1",
+                      "title":  "Taxa de juros cai",
+                      "content":  "Banco Central reduz a taxa bÃ¡sica, impulsionando setores sensÃ­veis a crÃ©dito.",
+                      "published_at":  "2025-09-28T10:00:00Z",
+                      "source":  "Reuters",
+                      "tickers":  [
+                                      "^BVSP"
+                                  ],
+                      "topics":  [
+                                     "juros",
+                                     "economia"
+                                 ],
+                      "sentiment":  "Positivo"
+                  },
+                  {
+                      "id":  "a2",
+                      "title":  "Greve em setor logÃ­stico",
+                      "content":  "InterrupÃ§Ãµes em portos aumentam risco de desabastecimento e pressionam prazos.",
+                      "published_at":  "2025-09-28T12:00:00Z",
+                      "source":  "Bloomberg",
+                      "tickers":  [
+
+                                  ],
+                      "topics":  [
+                                     "logÃ­stica"
+                                 ],
+                      "sentiment":  "Negativo"
+                  }
+              ],
+    "page":  1,
+    "per_page":  10,
+    "total":  2
+}

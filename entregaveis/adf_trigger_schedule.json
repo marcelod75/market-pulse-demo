@@ -1,0 +1,20 @@
+﻿{
+  "name": "trg_daily_6am",
+  "properties": {
+    "type": "ScheduleTrigger",
+    "pipelines": [
+      {
+        "pipelineReference": { "referenceName": "pl_market_pulse_collect", "type": "PipelineReference" },
+        "parameters": { "sources": [ "https://exemplo.com/feed1", "https://exemplo.com/feed2" ] }
+      }
+    ],
+    "typeProperties": {
+      "recurrence": {
+        "frequency": "Day",
+        "interval": 1,
+        "startTime": "2025-01-01T06:00:00Z",
+        "timeZone": "UTC"
+      }
+    }
+  }
+}

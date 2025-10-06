@@ -1,0 +1,26 @@
+﻿{
+  "name": "pl_market_pulse_collect",
+  "properties": {
+    "parameters": { "sources": { "type": "Array" } },
+    "activities": [
+      {
+        "name": "ForEachSources",
+        "type": "ForEach",
+        "typeProperties": {
+          "items": "@{pipeline().parameters.sources}",
+          "activities": [
+            {
+              "name": "CallFunctionIngest",
+              "type": "WebActivity",
+              "typeProperties": {
+                "url": "https://<seu-function-app>.azurewebsites.net/api/ingest",
+                "method": "POST",
+                "body": "@{item()}"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

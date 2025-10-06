@@ -1,0 +1,10 @@
+﻿flowchart TD
+  A[ADF Trigger] --> B[Azure Function Collect]
+  B --> C[ADLS Gen2 raw/]
+  C --> D[Databricks PySpark Curadoria]
+  D --> E[ADLS Gen2 curated/]
+  E --> F[Azure AI Search (FT+Vector)]
+  E --> G[Cosmos DB (metadados)]
+  F --> H[API / Search]
+  G --> H[API / Detalhe]
+  H --> I[APIM + AAD JWT]

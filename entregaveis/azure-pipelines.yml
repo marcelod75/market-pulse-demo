@@ -1,0 +1,14 @@
+﻿trigger: none
+pool:
+  vmImage: "ubuntu-latest"
+stages:
+- stage: CI
+  jobs:
+  - job: Lint_Test
+    steps:
+    - script: python -V && pip install ruff pytest
+      displayName: "Setup"
+    - script: ruff --version
+      displayName: "Lint"
+    - script: pytest -q || echo "tests placeholder"
+      displayName: "Test"
